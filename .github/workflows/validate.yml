@@ -1,0 +1,66 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Reject binary files
+        run: |
+          found=$(find . -type f \( \
+            -iname '*.dll' -o -iname '*.exe' -o -iname '*.sys' \
+            -o -iname '*.so' -o -iname '*.dylib' -o -iname '*.msi' \
+            -o -iname '*.scr' -o -iname '*.com' \
+          \) -print -quit)
+          if [ -n "$found" ]; then
+            echo "Binary files are not allowed: $found"
+            exit 1
+          fi
+
+      - name: Check required documentation
+        run: |
+          test -f README.md
+          test -f CHANGELOG.md
+          test -f CONTRIBUTING.md
+          test -f DISCLAIMER.md
+          test -f LICENSE
+          test -f NOTICE.md
+          test -f TOPICS.md
+          test -f spec.json
+          test -f repo-metadata.json
+          test -f docs/installation.md
+          test -f docs/configuration.md
+          test -f docs/faq.md
+          test -f docs/troubleshooting.md
+          test -f docs/safety.md
+          test -f docs/previews.md
+          test -f docs/updates.md
+
+      - name: Reject source and build directories
+        run: |
+          test ! -d src
+          test ! -d bin
+          test ! -d build
+          test ! -d obj
+
+      - name: Check SVG files parse
+        run: |
+          python3 - <<'PY'
+          import glob
+          import xml.etree.ElementTree as ET
+          files = glob.glob('assets/*.svg')
+          if not files:
+              raise SystemExit('no SVG assets found')
+          for path in files:
+              ET.parse(path)
+              print('ok', path)
+          PY

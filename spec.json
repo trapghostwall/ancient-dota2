@@ -1,0 +1,28 @@
+{
+  "name": "Ancient",
+  "version": "0.1.1",
+  "type": "documentation-hub",
+  "game": "Dota 2",
+  "platform": "Windows 10/11 x64",
+  "topics": [
+    "dota2",
+    "dota",
+    "dota-2",
+    "community-hub",
+    "documentation",
+    "overlay",
+    "configuration",
+    "windows",
+    "x64",
+    "source2",
+    "gaming",
+    "setup-guide",
+    "troubleshooting",
+    "ui-concept",
+    "assets",
+    "mit-license",
+    "fan-project",
+    "ancient-dota2",
+    "ancient"
+  ]
+}

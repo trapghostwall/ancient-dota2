@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a documentation problem or a broken link.
+title: "[bug] "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include passwords, tokens, Steam Guard codes, or account data.
+        This repository is documentation-only and does not ship a DLL or EXE.
+  - type: input
+    id: page
+    attributes:
+      label: Page or file
+      description: Which document or asset is affected?
+      placeholder: docs/installation.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Describe the incorrect, missing, or broken content.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should it say?
+      description: A concrete correction or a link to a reliable source.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows version, browser, and game build if relevant.
+      placeholder: Windows 11 24H2, current Dota 2 client
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I removed credentials and personal data from this report.
+          required: true
+        - label: This is not a request for DLL, EXE, offsets, or anti-cheat bypass.
+          required: true

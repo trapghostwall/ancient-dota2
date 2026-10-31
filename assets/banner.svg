@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">Ancient Dota 2 community hub</title>
+  <desc id="desc">A dark Dota 2 community banner with a #10b981 and #f59e0b accent, original rune artwork, and the Ancient wordmark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="0.55" stop-color="#0b0f16"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10b981"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0.38"/>
+      <stop offset="0.55" stop-color="#f59e0b" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#05070b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="500" fill="url(#bg)"/>
+  <rect width="1600" height="500" fill="url(#grid)"/>
+  <circle cx="1340" cy="238" r="360" fill="url(#glow)"/>
+
+  <path d="M0 414L168 500H0Z" fill="#10b981" opacity="0.9"/>
+  <path d="M0 372L116 500H0Z" fill="#f59e0b" opacity="0.16"/>
+  <path d="M1040 0L1096 0L842 500L786 500Z" fill="#ffffff" opacity="0.025"/>
+
+  <g opacity="0.9">
+    <circle cx="1340" cy="246" r="196" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="1340" cy="246" r="142" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+    <circle cx="1340" cy="246" r="82" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1"/>
+    <path d="M1100 246H1580M1340 6V486" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    <path d="M1340 118L1458 246L1340 374L1222 246Z" fill="none" stroke="url(#accent)" stroke-width="2.5"/>
+    <path d="M1340 160L1416 246L1340 332L1264 246Z" fill="#10b981" fill-opacity="0.08" stroke="#f59e0b" stroke-width="1.5"/>
+    <path d="M1340 246L1458 118M1340 246L1222 374" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
+    <circle cx="1458" cy="246" r="5" fill="#f59e0b"/>
+    <circle cx="1222" cy="246" r="4" fill="#10b981"/>
+    <circle cx="1340" cy="246" r="5" fill="#f2f4f8"/>
+    <text x="1340" y="458" text-anchor="middle" fill="#8b94a7" font-family="Consolas, monospace" font-size="12" letter-spacing="2">RUNES / VISION / TIMING</text>
+  </g>
+
+  <text x="1168" y="64" fill="#9aa4b5" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.6">UNOFFICIAL COMMUNITY PROJECT</text>
+  <text x="1536" y="64" text-anchor="end" fill="#f59e0b" font-family="Consolas, monospace" font-size="12" letter-spacing="1.5">2026</text>
+
+  <g transform="translate(92 102)">
+    <rect width="96" height="96" rx="22" fill="#0b0e15" stroke="#10b981" stroke-opacity="0.7" stroke-width="1.5"/>
+    <path d="M48 16L78 48L48 80L18 48Z" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M48 30L64 48L48 66L32 48Z" fill="#10b981" fill-opacity="0.2" stroke="#f59e0b" stroke-width="2"/>
+    <path d="M20 20V28M76 20V28M20 68V76M76 68V76" stroke="#f59e0b" stroke-width="3"/>
+  </g>
+
+  <text x="218" y="186" font-family="Segoe UI, Arial, sans-serif" font-size="84" font-weight="700" letter-spacing="3" fill="#f2f4f8">ANCIENT</text>
+  <text x="222" y="226" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="7" fill="#9aa4b5">DOTA 2 COMMUNITY HUB</text>
+
+  <rect x="222" y="250" width="190" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="96" y="318" font-family="Segoe UI, Arial, sans-serif" font-size="23" fill="#d9dee8">Draft context, map awareness, and configuration hygiene.</text>
+  <text x="96" y="352" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#8b94a7">Setup notes, configuration hygiene, and interface concepts.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.8" fill="#c9cfdb">
+    <rect x="96" y="390" width="182" height="30" rx="15" fill="#0c1018" stroke="#10b981" stroke-opacity="0.55"/>
+    <text x="112" y="410">WINDOWS 10/11 X64</text>
+    <rect x="294" y="390" width="118" height="30" rx="15" fill="#0c1018" stroke="#10b981" stroke-opacity="0.55"/>
+    <text x="310" y="410">SOURCE 2</text>
+    <rect x="428" y="390" width="118" height="30" rx="15" fill="#0c1018" stroke="#10b981" stroke-opacity="0.55"/>
+    <text x="444" y="410">DOCS ONLY</text>
+    <rect x="562" y="390" width="170" height="30" rx="15" fill="#0c1018" stroke="#10b981" stroke-opacity="0.55"/>
+    <text x="578" y="410">NO DLL / NO EXE</text>
+  </g>
+
+  <text x="1240" y="492" fill="#ffffff" opacity="0.028" font-family="Segoe UI, Arial, sans-serif" font-size="330" font-weight="700">A</text>
+
+  <path d="M96 456H1504" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="96" y="482" fill="#6f788a" font-family="Consolas, monospace" font-size="12" letter-spacing="1.4">DOTA 2 / SOURCE 2 / WINDOWS X64</text>
+  <text x="1504" y="482" text-anchor="end" fill="#6f788a" font-family="Consolas, monospace" font-size="12" letter-spacing="1.4">DOCS / CONFIG / PREVIEWS</text>
+</svg>

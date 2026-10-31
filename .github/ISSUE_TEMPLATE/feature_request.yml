@@ -1,0 +1,31 @@
+name: Documentation idea
+description: Suggest a guide, clarification, or original SVG concept.
+title: "[docs] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This project is documentation-only. Binary releases, cheat source,
+        offsets, and anti-cheat bypass material are out of scope.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What should be documented?
+      description: Describe the gap and who it helps.
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Suggested outline
+      description: A few headings or steps are enough.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This can be covered with documentation or original artwork.
+          required: true
+        - label: This does not require shipping a DLL, EXE, or game offsets.
+          required: true

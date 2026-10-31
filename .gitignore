@@ -1,0 +1,42 @@
+# Binaries and build output are deliberately excluded.
+*.exe
+*.dll
+*.sys
+*.so
+*.dylib
+*.msi
+*.bat
+*.cmd
+*.com
+*.scr
+*.pdb
+*.lib
+*.obj
+*.o
+*.a
+*.bin
+*.pak
+*.vpk
+*.zip
+*.rar
+*.7z
+
+# Local configuration and logs
+configs/local/
+*.local.json
+*.log
+logs/
+
+# Editor and OS noise
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key

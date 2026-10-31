@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative Ancient map concept</title>
+  <desc id="desc">An original stylized Dota 2 map concept with lanes, rune markers, ward circles, hero dots, and an objective timer panel. This is not a game capture.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="1" stop-color="#0e1017"/>
+    </linearGradient>
+    <linearGradient id="map" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1118"/>
+      <stop offset="0.55" stop-color="#0c1415"/>
+      <stop offset="1" stop-color="#131018"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10b981"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+
+  <rect x="40" y="40" width="1200" height="48" rx="8" fill="#0b0e15" stroke="#242a37"/>
+  <path d="M58 52L72 64L58 76L44 64Z" fill="none" stroke="#f59e0b" stroke-width="3"/>
+  <text x="86" y="69" fill="#f2f4f8" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Ancient</text>
+  <rect x="212" y="52" width="76" height="24" rx="4" fill="#121827" stroke="#10b981" stroke-opacity="0.55"/>
+  <text x="224" y="69" fill="#f59e0b" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">DOTA 2</text>
+  <text x="1160" y="69" text-anchor="end" fill="#8b94a7" font-family="Consolas, monospace" font-size="10" letter-spacing="1.4">MAP CONCEPT / STYLIZED</text>
+
+  <rect x="40" y="106" width="880" height="554" rx="10" fill="url(#map)" stroke="#242a37"/>
+  <rect x="40" y="106" width="880" height="554" rx="10" fill="url(#grid)"/>
+
+  <path d="M110 586L360 474L610 356L840 236" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="46" stroke-linecap="round"/>
+  <path d="M110 586L360 474L610 356L840 236" fill="none" stroke="#f59e0b" stroke-opacity="0.10" stroke-width="3" stroke-dasharray="12 12"/>
+  <path d="M100 220L330 300L560 390L840 500" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="40" stroke-linecap="round"/>
+  <path d="M100 220L330 300L560 390L840 500" fill="none" stroke="#10b981" stroke-opacity="0.10" stroke-width="3" stroke-dasharray="12 12"/>
+  <path d="M150 590L390 430L640 270L820 130" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="34" stroke-linecap="round"/>
+
+  <path d="M820 140C720 230 640 290 560 350C480 410 380 490 140 600" fill="none" stroke="#4f7fa8" stroke-opacity="0.25" stroke-width="22"/>
+  <path d="M820 140C720 230 640 290 560 350C480 410 380 490 140 600" fill="none" stroke="#7dd3fc" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="10 10"/>
+
+  <g opacity="0.85">
+    <circle cx="250" cy="240" r="74" fill="#10b981" fill-opacity="0.05" stroke="#10b981" stroke-opacity="0.22"/>
+    <circle cx="250" cy="240" r="48" fill="none" stroke="#10b981" stroke-opacity="0.18"/>
+    <circle cx="700" cy="510" r="66" fill="#f59e0b" fill-opacity="0.04" stroke="#f59e0b" stroke-opacity="0.18"/>
+    <circle cx="700" cy="510" r="42" fill="none" stroke="#f59e0b" stroke-opacity="0.14"/>
+    <circle cx="590" cy="250" r="48" fill="#ffffff" fill-opacity="0.02" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="240" cy="470" r="54" fill="#ffffff" fill-opacity="0.02" stroke="#ffffff" stroke-opacity="0.07"/>
+  </g>
+
+  <g>
+    <circle cx="250" cy="240" r="26" fill="#0b0e15" stroke="#10b981" stroke-width="2"/>
+    <path d="M250 224L262 240L250 256L238 240Z" fill="none" stroke="#f59e0b" stroke-width="2"/>
+    <text x="250" y="288" text-anchor="middle" fill="#d9dee8" font-family="Consolas, monospace" font-size="10" letter-spacing="1.2">ROSHAN</text>
+    <text x="250" y="304" text-anchor="middle" fill="#f59e0b" font-family="Consolas, monospace" font-size="10">4:32</text>
+  </g>
+
+  <g>
+    <circle cx="160" cy="520" r="18" fill="#10b981" fill-opacity="0.14" stroke="#10b981" stroke-width="2"/>
+    <path d="M160 510L168 520L160 530L152 520Z" fill="#f59e0b"/>
+    <text x="188" y="516" fill="#d9dee8" font-family="Consolas, monospace" font-size="10" letter-spacing="1">TOP RUNE</text>
+    <text x="188" y="532" fill="#f59e0b" font-family="Consolas, monospace" font-size="10">0:14</text>
+  </g>
+  <g>
+    <circle cx="760" cy="180" r="18" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="2"/>
+    <path d="M760 170L768 180L760 190L752 180Z" fill="#10b981"/>
+    <text x="788" y="176" fill="#d9dee8" font-family="Consolas, monospace" font-size="10" letter-spacing="1">BOT RUNE</text>
+    <text x="788" y="192" fill="#f59e0b" font-family="Consolas, monospace" font-size="10">0:14</text>
+  </g>
+
+  <g>
+    <circle cx="350" cy="470" r="36" fill="#57d68d" fill-opacity="0.05" stroke="#57d68d" stroke-opacity="0.35" stroke-dasharray="4 4"/>
+    <circle cx="350" cy="470" r="7" fill="#57d68d"/>
+    <text x="350" y="516" text-anchor="middle" fill="#8b94a7" font-family="Consolas, monospace" font-size="9">RADIANT</text>
+  </g>
+  <g>
+    <circle cx="640" cy="300" r="36" fill="#f87171" fill-opacity="0.05" stroke="#f87171" stroke-opacity="0.35" stroke-dasharray="4 4"/>
+    <circle cx="640" cy="300" r="7" fill="#f87171"/>
+    <text x="640" y="346" text-anchor="middle" fill="#8b94a7" font-family="Consolas, monospace" font-size="9">DIRE</text>
+  </g>
+  <g>
+    <circle cx="470" cy="400" r="28" fill="#fbbf24" fill-opacity="0.07" stroke="#fbbf24" stroke-opacity="0.4" stroke-dasharray="4 4"/>
+    <circle cx="470" cy="400" r="5" fill="#fbbf24"/>
+    <text x="470" y="442" text-anchor="middle" fill="#8b94a7" font-family="Consolas, monospace" font-size="9">WARD</text>
+  </g>
+  <g>
+    <circle cx="710" cy="390" r="28" fill="#a78bfa" fill-opacity="0.07" stroke="#a78bfa" stroke-opacity="0.4" stroke-dasharray="4 4"/>
+    <circle cx="710" cy="390" r="5" fill="#a78bfa"/>
+    <text x="710" y="432" text-anchor="middle" fill="#8b94a7" font-family="Consolas, monospace" font-size="9">SENTRY</text>
+  </g>
+
+  <path d="M40 620H920" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="60" y="646" fill="#6f788a" font-family="Consolas, monospace" font-size="10" letter-spacing="1.2">ILLUSTRATIVE MAP CONCEPT / NOT A GAME CAPTURE</text>
+
+  <rect x="940" y="106" width="300" height="554" rx="10" fill="#0b0e15" stroke="#242a37"/>
+  <text x="962" y="140" fill="#10b981" font-family="Consolas, monospace" font-size="11" letter-spacing="2">RUNE TIMERS</text>
+  <path d="M962 154H1218" stroke="#1d232e"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="962" y="186" fill="#d9dee8" font-size="13" font-weight="600">Top rune</text>
+    <text x="1218" y="186" text-anchor="end" fill="#f59e0b" font-family="Consolas, monospace" font-size="12">0:14</text>
+    <rect x="962" y="198" width="256" height="4" rx="2" fill="#222836"/>
+    <rect x="962" y="198" width="196" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="962" y="232" fill="#d9dee8" font-size="13" font-weight="600">Bottom rune</text>
+    <text x="1218" y="232" text-anchor="end" fill="#f59e0b" font-family="Consolas, monospace" font-size="12">0:14</text>
+    <rect x="962" y="244" width="256" height="4" rx="2" fill="#222836"/>
+    <rect x="962" y="244" width="196" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="962" y="278" fill="#d9dee8" font-size="13" font-weight="600">Roshan</text>
+    <text x="1218" y="278" text-anchor="end" fill="#f59e0b" font-family="Consolas, monospace" font-size="12">4:32</text>
+    <rect x="962" y="290" width="256" height="4" rx="2" fill="#222836"/>
+    <rect x="962" y="290" width="112" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="962" y="324" fill="#d9dee8" font-size="13" font-weight="600">Glyph</text>
+    <text x="1218" y="324" text-anchor="end" fill="#f59e0b" font-family="Consolas, monospace" font-size="12">1:20</text>
+    <rect x="962" y="336" width="256" height="4" rx="2" fill="#222836"/>
+    <rect x="962" y="336" width="168" height="4" rx="2" fill="url(#accent)"/>
+  </g>
+
+  <path d="M962 366H1218" stroke="#1d232e"/>
+  <text x="962" y="400" fill="#10b981" font-family="Consolas, monospace" font-size="11" letter-spacing="2">VISION</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8b94a7">
+    <text x="962" y="428">Radiant wards</text>
+    <text x="1218" y="428" text-anchor="end" fill="#d9dee8">2</text>
+    <text x="962" y="456">Dire wards</text>
+    <text x="1218" y="456" text-anchor="end" fill="#d9dee8">1</text>
+    <text x="962" y="484">Rune control</text>
+    <text x="1218" y="484" text-anchor="end" fill="#f59e0b">contested</text>
+  </g>
+
+  <rect x="962" y="512" width="256" height="116" rx="8" fill="#0c1018" stroke="#242a37"/>
+  <text x="978" y="536" fill="#6f788a" font-family="Consolas, monospace" font-size="9" letter-spacing="1.4">CONCEPT STATUS</text>
+  <text x="978" y="558" fill="#d9dee8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600">Documentation only</text>
+  <text x="978" y="578" fill="#8b94a7" font-family="Segoe UI, Arial, sans-serif" font-size="11">No DLL / EXE / offsets</text>
+  <path d="M978 590H1202" stroke="#242a37"/>
+  <text x="978" y="612" fill="#6f788a" font-family="Consolas, monospace" font-size="9">DOTA 2 / SOURCE 2</text>
+
+  <text x="962" y="688" fill="#6f788a" font-family="Consolas, monospace" font-size="9" letter-spacing="1">DOCS ONLY / NO BINARIES</text>
+</svg>
